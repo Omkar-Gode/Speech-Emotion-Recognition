@@ -1,6 +1,6 @@
 # Speech-Emotion-Recognition
 
-In this project I have CREMA-D dataset which is consist of 7,442 original clips from 91 actors. Actors spoke from a selection of 12 sentences. The sentences were presented using one of six different emotions (Anger, Disgust, Fear, Happy, Neutral, and Sad).
+In this project I have used CREMA-D dataset which consists of 7,442 original clips from 91 actors. Actors spoke from a selection of 12 sentences. The sentences were presented using one of six different emotions (Anger, Disgust, Fear, Happy, Neutral, and Sad).
 
 I have used Convolutional Neural Network algorithm for predicting emotions in speech.
 
