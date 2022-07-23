@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='static/main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+
+<div class="out">
+<h1 >SPEECH EMOTION RECOGNITION</h1>
+
+<div class="disp">
+{% if filename %}
+<!-- <div id="audi"> -->
+<audio controls>
+    <source src="{{url_for('play_audio',filename=filename)}}" type="audio/wav">
+    <source src="{{url_for('play_audio',filename=filename)}}" type="audio/mp3">
+</audio>
+<!-- </div> -->
+<!-- <div id="emotion"> -->
+<img src="{{url_for('display_emotion',Prediction=Prediction)}}" alt="emotion">
+<!-- </div> -->
+</div>
+
+<h2>{{Prediction}}</h2>
+
+<p>Percentage of Prediction is {{Percentage}}%</p>
+
+{% endif %}
+
+<form action="/">
+    <input type="submit" value="Next">
+</form>
+
+</div>
+</body>
+</html>
