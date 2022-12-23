@@ -1,15 +1,12 @@
 # Speech-Emotion-Recognition
 
-Markup: *In this project I have used CREMA-D dataset which is consist of 7,442 original clips from 91 actors. Actors spoke from a selection of 12 sentences. The                sentences were presented using one of six different emotions (Anger, Disgust, Fear, Happy, Neutral, and Sad).
+* In this project I have used CREMA-D dataset which is consist of 7,442 original clips from 91 actors. Actors spoke from a selection of 12 sentences. The                sentences were presented using one of six different emotions (Anger, Disgust, Fear, Happy, Neutral, and Sad).
 
+* Convolutional Neural Network (CNN) is used to train and predict emotions using speech data which was transformed using Librosa library.
 
-        *Convolutional Neural Network (CNN) is used to train and predict emotions using speech data which was transformed using Librosa library.
+* After training the model, I made web app for model using flask microframework and deployed it locally.
 
-
-        *After training the model, I made web app for model using flask microframework and deployed it locally.
-
-
-        *Here are screenshots of web app of the model,
+* Here are screenshots of web app of the model,
 ## input page:
 
 ![Screenshot (128)](https://user-images.githubusercontent.com/105780030/179716358-569af9c5-df0f-42be-8025-ea9707e6960e.png)
